@@ -1,0 +1,125 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+* ,*::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+body {
+    font-family:Poppins, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.continar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.continar .Reliable {
+    font-weight: 200;
+    margin:2em 0 8px;
+}
+.continar .Powered {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+}
+.continar p {
+    text-align: center;
+    color: hsl(299deg 6% 66%);
+    line-height: 1.8;
+    margin-top: 5px;
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 85%;
+    margin-top: 30px;
+}
+@media (max-width: 768px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.main-one,
+.main-two,
+.main-three {
+    width: 85%;
+}
+.main-one,
+.Team-Builder,
+.Karma,
+.main-three {
+    min-height: 30vh;
+    box-shadow: 0px 7px 29px hsl(229deg 6% 66%);
+    border-radius: 5px;
+    position: relative;
+    padding:15px;
+}
+.main p {
+    text-align: start;
+    padding-top: 15px;
+}
+.main h2 {
+    color: hsl(0deg 2% 19%);
+    font-weight: 500;
+    font-size: 18px;
+}
+.main i {
+    position: absolute;
+    right: 20px;
+    top: 66%;
+    font-size: 25px;
+}
+.main .main-one {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+.main .main-one i {
+    color:hsl(180, 62%, 55%) ;
+}
+.main .main-two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.Team-Builder {
+    border-top: 4px solid hsl(330, 62%, 55%);
+}
+.main .main-two .Team-Builder i {
+    color: hsl(330, 62%, 55%);
+}
+.Karma {
+    border-top: 4px solid hsl(130, 62%, 55%);
+}
+.main .main-two .Karma i {
+    color:hsl(130, 62%, 55%);
+}
+
+.main .main-three {
+    border-top: 4px solid hsl(256, 62%, 55%);
+}
+.main .main-three i {
+    color:hsl(256, 62%, 55%);
+}
+footer {
+    text-align: center;
+}
+footer p {
+    font-size: 11px;
+    margin-top: 3em;
+}
